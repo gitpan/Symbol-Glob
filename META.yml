@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Symbol-Glob
-version:            0.02
+version:            0.03
 abstract:           remove items from the symbol table, painlessly
 author:
     - Joe McMahon <mcmahon@yahoo-inc.com >
@@ -11,8 +11,9 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
-    version:     0
+    Test::Exception:  0
+    Test::More:       0
+    version:          0
 no_index:
     directory:
         - t

@@ -1,5 +1,8 @@
 Revision history for Symbol-Glob
 
+0.03  Thu Mar 10 17:41:24 PST 2011
+	- Add hard requirement for Test::Exception.
+
 0.02  Mon Mar  7 20:35:48 PST 2011
 	- Remove Class::Std prereq. It was a nice idea in its time...
 
